@@ -321,7 +321,7 @@ pierwszy mecz
 </p>
 
 <p id="next_match">
-następny mecz
+następny mecz &rarr;
 </p>
 
 <p id="match_header_1">
@@ -405,181 +405,181 @@ Ale, jeśli wynik bardzo się zmienia, gdy grasz wiele rund tej samej gry, co je
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="evolution_intro">
-Now, let's let our population of players <i>evolve over time</i>. It's a 3-step dance:
+Pozwólmy teraz naszej populacji graczy <i>ewoluować z czasem</i>. To taniec na trzy kroki:
 </p>
 <p id="evolution_intro_1">
-<b>1. PLAY A TOURNAMENT</b><br>
-Let them all play against each other, and tally up their scores.
+<b>1. PRZEPROWADŹ TURNIEJ</b><br>
+Pozwól wszystkim zagrać przeciwko sobie i zestaw ze sobą ich wyniki.
 </p>
 <p id="evolution_intro_2">
-<b>2. ELIMINATE LOSERS</b><br>
-Get rid of the 5 worst players. (if there's a tie, pick randomly between them)
+<b>2. WYELIMINUJ PRZEGRANYCH</b><br>
+Pozbądź się 5 najgorszych graczy. (jeśli jest remis, wybierz losowo pomiędzy nimi)
 </p>
 <p id="evolution_intro_3">
-<b>3. REPRODUCE WINNERS</b><br>
-Clone the 5 best players. (if there's a tie, pick randomly between them)
+<b>3. POWIEL ZWYCIĘZCÓW</b><br>
+Skopiuj 5 najlepszych graczy. (jeśli jest remis, wybierz losowo pomiędzy nimi)
 </p>
 <p id="evolution_intro_footer">
-...and REPEAT, for as long as you'd like.
-Note: you don't have to wait for people to literally die &amp; reproduce for culture to evolve --
-all that's needed is that "unsuccessful" behaviors go away, and "successful" behaviors are imitated.
-So now...
+...i POWTARZAJ, tak długo jak chcesz.
+
+Uwaga: nie musisz czekać aż ludzie zaczną dosłownie umierać i rozmnażać się, aby kultura ewoluowała —
+wszystko czego trzeba to by przegrywające zachownia zniknęły, a wygrywające były naśladowane.
+To teraz...
 </p>
 <p id="evolution_intro_button">
-...let's see this in action. &rarr;
+...zobaczmy to w akcji. &rarr;
 </p>
 
 <p id="evo_1">
-Say we start with the following population of players:
-<span class="all_c">15 Always Cooperates</span>,
-<span class="all_d">5 Always Cheats</span>, and
-<span class="tft">5 Copycats</span>.
-(We'll ignore <span class="grudge">Grudger</span> &amp; <span class="prober">Detective</span> for now)
+Powiedzmy, że zaczynamy od nastepującej populacji graczy:
+<span class="all_c">15 Ufnych Wspólników</span>,
+<span class="all_d">5 Notorycznych Oszustów</span> i
+<span class="tft">5 Naśladowców</span>.
+(Na razie zignorujemy <span class="grudge">Mściciela</span> i <span class="prober">Detektywa</span>)
 <br><br>
-We're going to do the tournament-eliminate-reproduce dance a dozen times or so.
-Let's make another bet! Who do you think will win the <i>first</i> tournament?
-<b>PLACE YOUR BETS, AGAIN:</b>
+Przeprowadzimy proces turniej-eliminacja-reprodukcja kilkanaście razy.
+Postawmy kolejny zakład! Jak myślisz, kto wygra <i>pierwszy</i> turniej?
+
+<b>POSTAW SWÓJ ZAKŁAD, PONOWNIE:</b>
 </p>
 
 <p id="evo_2_all_c">
-Makes sense, <span class="all_c">Always Cooperate</span> outnumbers everyone else right now...
+To ma sens, <span class="all_c">Ufni Wspólnicy</span> w tej chwili przewyższają liczebnością pozostałych...
 </p>
 <p id="evo_2_all_d">
-Makes sense, <span class="all_d">Always Cheat</span> has a lot of <span class="all_c">Always Cooperates</span> to exploit...
+To ma sens, <span class="all_d">Notoryczni Oszuści</span> mają wielu <span class="all_c">Ufnych Wspólników</span>, których mogą wykorzystywać...
 </p>
 <p id="evo_2_tft">
-Makes sense, <span class="tft">Copycat</span> won the tournament last time, why not again?...
+To ma sens, <span class="tft">Naśladowca</span> wygrał turniej poprzednim razem, może tym razem też wygra?...
 </p>
 <p id="evo_2">
-Let's see if you're correct:
+Sprawdźmy czy masz rację:
 </p>
 
 <p id="label_play_tournament">
-1) play tournament
+1) przeprowadź turniej
 </p>
 <p id="label_eliminate_bottom_5">
-2) eliminate bottom 5
+2) wyeliminuj 5 najsłabszych
 </p>
 <p id="label_reproduce_top_5">
-3) reproduce top 5
+3) powiel 5 najlepszych
 </p>
 
 <p id="evo_3_all_c">
-Alas, <span class="all_c">Always Cooperate</span> got eaten up by
-<span class="all_d">Always Cheat</span>, whose numbers have now increased by 5.
+Niestety, <span class="all_c">Ufni Wspólnicy</span> zostali pożarci przez
+<span class="all_d">Notorycznych Oszustów</span>, których ilość wzrosła teraz o pięciu.
 </p>
 <p id="evo_3_all_d">
-Sadly, you were correct! The <span class="all_d">Always Cheaters</span> won this time, 
-and their numbers increased by 5.
+To smutne, ale miałeś rację! <span class="all_d">Notoryczni Oszuści</span> wygrali tym razem, 
+a ich ilość wzrosła o pięciu.
 </p>
 <p id="evo_3_tft">
-Alas, <span class="tft">Copycat</span> did not win – but at least they didn't do as bad
-as <span class="all_c">Always Cooperate</span>. They got eaten up by <span class="all_d">Always Cheat</span>,
-whose numbers have now increased by 5.
+Niestety, <span class="tft">Naśladowcy</span> nie wygrali — ale przynajmniej nie skończyli tak źle jak
+<span class="all_c">Ufni Wspólnicy</span>. Zostali pożarci przez <span class="all_d">Notorycznych Oszustów</span>,
+których ilość wzrosła o pięciu.
 </p>
 <p id="evo_3">
-But let's try a few more rounds of this...
+Ale spróbujmy jeszcze kilka rund...
 </p>
 
 <p id="evo_4">
-<span class="all_d">Always Cheat</span> is still growing,
-at the expense of <span class="all_c">Always Cooperate</span>...
+<span class="all_d">Notoryczni Oszuści</span> wciąż rosną w siłę,
+kosztem <span class="all_c">Ufnych Wspólników</span>...
 </p>
 
 <p id="evo_5">
-And now, all the <span class="all_c">Always Cooperates</span> are dead.
-But, wait...
+A teraz już wszyscy <span class="all_c">Ufni Wspólnicy</span> nie żyją.
+Ale, czekaj...
 </p>
 
 <p id="evo_6">
-That's right: the <span class="all_d">Always Cheats</span> became a victim of their own success!
-They exploited the naive <span class="all_c">Always Cooperators</span>,
-but once they ran out of them, they had to face the <span class="tft">Copycats</span>:
-who <i>are</i> nice, but not naive.
+Tak jest: <span class="all_d">Notoryczni Oszuści</span> stali się ofiarą własnego sukcesu!
+Wykorzystali naiwnych <span class="all_c">Wspólników</span>,
+ale gdy ci im się skończyli, musieli zmierzyć się z <span class="tft">Naśladowcami</span>:
+którzy <i>są</i> mili, ale nie naiwni.
 </p>
 
 <p id="evo_7">
-By simply copying the other player's moves,
-<span class="tft">Copycats</span> can play nice with each other,
-while <span class="all_d">Always Cheats</span> just cheat themselves!
-Not only that, but it also means <span class="tft">Copycat</span>
-can give <span class="all_d">Always Cheat</span>
-a taste of their own medicine.
+Dzięki prostemu kopiowaniu ruchów innych graczy,
+<span class="tft">Naśladowcy</span> są mili dla siebie nawzajem,
+podczas gdy <span class="all_d">Notoryczni Oszuści</span> nawzajem się oszukują!
+Na dodatek, <span class="tft">Naśladowcy</span> potrafią odpłacić
+<span class="all_d">Notorycznym Oszustom</span> pięknym za nadobne.
 </p>
 
 <p id="evo_8">
-And so, as a result...
+I tak, w rezultacie...
 </p>
 
 <p id="evo_9">
-...<span class="tft">Copycat</span> inherits the earth.
+...<span class="tft">Naśladowcy</span> dziedziczą ziemię.
 </p>
 <p id="evo_9_all_c">
-So, although your bet was off -- the nice-but-naive <span class="all_c">Always Cooperators</span>
-were doomed from the start -- in the end, a <i>smart</i> form of niceness prevailed,
-and the <span class="all_d">Always Cheaters</span> were squashed.
+Więc, choć twój zakład nie był trafny — mili-ale-naiwni <span class="all_c">Wspólnicy</span>
+byli skazani na zagładę od samego początku — ostatecznie, <i>sprytna</i> forma bycia miłym przetrwała,
+a <span class="all_d">Notoryczni Oszuści</span> zostali zmiażdżeni.
 </p>
 <p id="evo_9_all_d">
-So, in the short run you were right - <span class="all_d">Always Cheat</span> won the first few rounds,
-but in the end, its exploitativeness was its downfall.
+Więc, na krótką metę miałeś rację — <span class="all_d">Notoryczni Oszuści</span> wygrali pierwsze kilka rund,
+ale na koniec, ich chciwość stała się przyczyną ich upadku.
 </p>
 <p id="evo_9_tft">
-So, in the long run, you were right - <span class="tft">Copycat</span> wins!
-<span class="all_d">Always Cheat</span> may have won in the short run,
-but its exploitativeness was its downfall.
+Więc, na dłuższa metę, miałeś rację — <span class="tft">Naśladowcy</span> wygrywają!
+<span class="all_d">Notoryczni Oszuści</span> mogli na początku zwyciężać,
+ich chciwość stała się przyczyną ich upadku.<br><br>
 </p>
 <p id="evo_9_end">
-This reminds me of a quote:
+To przypomina mi o cytacie:
 <br><br>
-<i>"We are punished by our sins, not for them."</i><br>
-~ Elbert Hubbard
+<i>"Jesteśmy karani nie za nasze grzechy, lecz przez nie."</i> — Elbert Hubbard
 </p>
 <p id="evo_9_btn">
-(oh, and by the way...)
+(aha, tak przy okazji...)
 </p>
 
 <p id="evo_10">
-(...this result is similar even if we put
-<span class="grudge">Grudger</span> &amp; <span class="prober">Detective</span> back in:)
+(...wynik jest podobny nawet jeśli ponownie zaprosimy do gry
+<span class="grudge">Mściciela</span> i <span class="prober">Detektywa</span>:)
 </p>
 
 <p id="evo_autoplay">
-start the evolution process!
+rozpocznij proces ewolucji!
 </p>
 <p id="evo_autoplay_stop">
-stop the evolution process
+zatrzymaj proces ewolucji
 </p>
 
 <p id="evo_10_followup">
-(Note: sometimes, a few <span class="grudge">Grudgers</span> may stick around,
-because when all players except <span class="grudge">Grudger</span> &amp; <span class="tft">Copycat</span> 
-are eliminated, the two tie.)
+(Uwaga: czasami kilku <span class="grudge">Mścicieli</span> może przetrwać, ponieważ gdy wszyscy gracze 
+z wyjątkiem <span class="grudge">Mścicieli</span> i <span class="tft">Naśladowców</span> 
+zostaną wyeliminowani, tych dwóch remisuje.)
 <br><br>
-So, it seems the math of game theory is telling us something:
-that <span class="tft">Copycat's</span> philosophy,
-"Do unto others as you would have them do unto you", may be not just a 
-<i>moral</i> truth, but also a <i>mathematical</i> truth.
-However...
+No to wygląda na to, że matematyka teorii gier ma nam coś do powiedzenia:
+filozofia <span class="tft">Naśladowców</span>,
+"Czyń innym tak jakbyś chciał, aby Tobie czyniono", może być nie tylko
+prawdą <i>moralną</i>, ale też prawdą <i>matematyczną</i>.
+Jednakże...
 </p>
 <p id="evo_10_btn">
-...there's a problem: &rarr;
+...jest pewien problem: &rarr;
 </p>
 
 <p id="evo_11">
-Look around. The world's full of total jerkwads.
+Rozejrzyj się. Świat pełen jest drani.
 <br><br>
-If <span class="tft">Copycat</span> is the strategy in this repeated game of trust that's so powerful --
-that even soldiers in World War I trenches independently "evolved" a similar strategy, called "live and let live" -- 
-why, then, are there so many un-trusting, un-trustworthy people?
-What's causing our epidemic of un-trust?
+Jeśli <span class="tft">Naśladowca</span> jest strategią która w tej wielokrotnej grze zaufania jest tak potężna,
+że nawet żołnierze w okopach Pierwszej Wojny Światowej niezależnie wykształcili podobną strategię —
+dlaczego jest tak wielu nieufnych i niegodnych zaufania ludzi?
+Co powoduje tę epidemię nieufności?
 <br><br>
-A clue's in that sentence itself. "In <i>this</i> repeated game of trust."
-So far we've only talked about change in the players:
-what about <i>a change in the game?</i>
-What could lead to...
+Podpowiedź znajduje się w samym pytaniu, "w <i>tej</i> wielokrotnej grze zaufania."
+Jak dotąd mówiliśmy tylko o zmianach w zachowaniu graczy:
+a co ze <i>zmianą w samej grze?</i>
+Co mogłoby prowadzić do...
 </p>
 <p id="evo_11_btn">
-...the evolution of <i>distrust?</i>
+...ewolucji <i>nieufności?</i>
 </p>
 
 <!-- - - - - - - - - - - - - - - - - -->
