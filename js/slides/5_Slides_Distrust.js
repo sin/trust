@@ -29,7 +29,7 @@ SLIDES.push({
 		// Words to the side
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:30, width:450, height:500,
+			x:0, y:00, width:450, height:500,
 			text_id:"distrust_1"
 		});
 		_hide(o.text); _fadeIn(o.text, 600);
@@ -171,7 +171,7 @@ SLIDES.push({
 		// Worse...
 		self.add({
 			id:"next", type:"Button",
-			x:0, y:450, size:"long",
+			x:0, y:500, size:"long",
 			text_id:"distrust_3_btn",
 			message: "slideshow/next"
 		});
@@ -280,7 +280,7 @@ SLIDES.push({
 		// Words
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:30, width:450, height:500,
+			x:0, y:0, width:450, height:500,
 			text_id:"distrust_5"
 		});
 		_hide(o.text); _fadeIn(o.text, 100);
@@ -288,7 +288,7 @@ SLIDES.push({
 		// Worse...
 		self.add({
 			id:"next", type:"Button",
-			x:0, y:450, size:"long",
+			x:0, y:500, size:"long",
 			text_id:"distrust_5_btn",
 			message: "slideshow/scratch"
 		});

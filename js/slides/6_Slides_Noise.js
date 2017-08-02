@@ -173,12 +173,12 @@ SLIDES.push({
 			{strategy:"all_c", count:13}
 		];
 		PD.NOISE = 0.05;
-		self.add({id:"tournament", type:"Tournament", x:-20, y:20});
+		self.add({id:"tournament", type:"Tournament", x:-20, y:10});
 
 		// Words to the side
 		self.add({
 			id:"text", type:"TextBox",
-			x:510, y:30, width:450, height:500,
+			x:510, y:10, width:450, height:500,
 			text_id:"noise_evo_1"
 		});
 
@@ -524,7 +524,7 @@ SLIDES.push({
 
 		// Next button
 		self.add({
-			id:"button", type:"Button", x:510, y:466, 
+			id:"button", type:"Button", x:510, y:480, 
 			text_id:"noise_evo_6_btn", size:"long",
 			message:"slideshow/scratch"
 		});
