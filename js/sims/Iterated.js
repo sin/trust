@@ -40,7 +40,7 @@ function Iterated(config){
 	self.dom.appendChild(_l2);
 	var _l3 = _makeLabel("label_they_cheat", {x:406, y:86, rotation:45, align:"center", color:"#333333", size:15, width:70, lineHeight:1});
 	self.dom.appendChild(_l3);
-	var _l4 = _makeLabel("label_you_cheat", {x:224, y:83, rotation:-45, align:"center", color:"#333333", size:15, width:70, lineHeight:1});
+	var _l4 = _makeLabel("label_you_cheat", {x:215, y:90, rotation:-45, align:"center", color:"#333333", size:15, width:70, lineHeight:1});
 	self.dom.appendChild(_l4);
 
 	///////////////////////////////////////////////
