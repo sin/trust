@@ -213,7 +213,7 @@ SLIDES.push({
 		// Next...
 		self.add({
 			id:"button", type:"Button",
-			x:510, y:430, size:"long",
+			x:510, y:455, size:"long",
 			text_id:"tournament_teaser",
 			message: "slideshow/scratch"
 		});
