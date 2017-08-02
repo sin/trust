@@ -40,7 +40,7 @@ SLIDES.push({
 		});
 		self.add({
 			id:"text8", type:"TextBox",
-			x:74, y:440, width:520, align:"right",
+			x:54, y:440, width:540, align:"right",
 			text_id:"conclusion_4"
 		});
 
@@ -53,7 +53,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:615, y:481, 
+			id:"button", type:"Button", x:615, y:481,
 			text_id:"conclusion_btn", size:"long",
 			message:"slideshow/scratch"
 		});
@@ -73,14 +73,14 @@ SLIDES.push({
 		// Circular Wordbox
 		self.add({
 			id:"text", type:"TextBox",
-			x:160, y:10, width:640, height:500, align:"center",
+			x:160, y:0, width:640, height:500, align:"center",
 			text_id:"outro_1"
 		});
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:385, y:466, 
-			text_id:"outro_1_btn",
+			id:"button", type:"Button", x:305, y:490,
+			text_id:"outro_1_btn", size:"long",
 			message:"slideshow/next"
 		});
 
@@ -123,7 +123,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:427, y:466, 
+			id:"button", type:"Button", x:427, y:466,
 			text_id:"outro_2_btn", size:"short",
 			message:"slideshow/scratch"
 		});
