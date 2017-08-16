@@ -8,7 +8,7 @@ SLIDES.push({
 		Tournament.resetGlobalVariables();
 
 		// Iterated Simulation
-		self.add({id:"iterated", type:"Iterated", x:130, y:133});
+		self.add({id:"iterated", type:"Iterated", x:130, y:145});
 
 		// Words on top & bottom
 		self.add({

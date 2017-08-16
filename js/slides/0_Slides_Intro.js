@@ -54,7 +54,7 @@ SLIDES.push({
 		// TITLE TEXT
 		self.add({
 			id:"title", type:"TextBox",
-			x:130, y:80, width:700,
+			x:130, y:120, width:700,
 			size:100, lineHeight:0.9, align:"center",
 			text_id:"title"
 		});
@@ -118,7 +118,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"intro_button", type:"Button", x:304, y:466, size:"long",
+			id:"intro_button", type:"Button", x:304, y:486, size:"long",
 			text_id:"intro_button", 
 			message:"slideshow/scratch"
 		});

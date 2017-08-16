@@ -11,7 +11,7 @@ SLIDES.push({
 		// WORDS
 		self.add({
 			id:"text1", type:"TextBox",
-			x:0, y:20, width:774, height:42,
+			x:0, y:20, width:850, height:42,
 			text_id:"evolution_intro"
 		});
 		self.add({
@@ -21,7 +21,7 @@ SLIDES.push({
 		});
 		self.add({
 			id:"text3", type:"TextBox",
-			x:336, y:235, width:287, height:117, align:"center",
+			x:320, y:235, width:320, height:117, align:"center",
 			text_id:"evolution_intro_2"
 		});
 		self.add({
@@ -205,7 +205,7 @@ SLIDES.push({
 
 		// Oh by the way...
 		self.add({
-			id:"button", type:"Button", x:510, y:320, 
+			id:"button", type:"Button", x:510, y:350, 
 			text_id:"evo_9_btn", size:"long",
 			message: "slideshow/next"
 		});
@@ -280,7 +280,7 @@ SLIDES.push({
 
 			// Button: next (hidden)
 			self.add({
-				id:"next", type:"Button", x:510, y:450, 
+				id:"next", type:"Button", x:510, y:500, 
 				text_id:"evo_10_btn", size:"long",
 				message: "slideshow/next"
 			});
@@ -319,7 +319,7 @@ SLIDES.push({
 
 		// Next
 		self.add({
-			id:"next", type:"Button", x:510, y:425, 
+			id:"next", type:"Button", x:510, y:450, 
 			text_id:"evo_11_btn", size:"long",
 			message: "slideshow/next"
 		});
