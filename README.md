@@ -37,7 +37,7 @@ To jest repozytorium tłumaczenia *[The Evolution of Trust](http://ncase.me/trus
 
 **Tłumaczenie:**
 
-* Autorzy tłumaczenia: [sin](https://github.com/sin/)
+* Autorzy tłumaczenia: [sin](https://github.com/sin/), [agagata](https://github.com/agagata/)
 * Korekta: brak (chcesz pomóc? napisz na sin.mateusz [at] gmail [dot] com)
 
 # "LICENCJA"
