@@ -2,13 +2,15 @@
 
 # ZAGRAJ TUTAJ: [sin.github.io/trust](https://sin.github.io/trust/)
 
+Gra o tym dlaczego i w jaki sposób sobie ufamy, przetłumaczona na język polski.
+
 **ENGLISH VERSION:** [ncase.me/trust](http://ncase.me/trust/)
 
 To jest repozytorium tłumaczenia *[The Evolution of Trust](http://ncase.me/trust/)*, oryginalne repozytorium znajdziesz tu: [github.com/ncase/trust](https://github.com/ncase/trust)
 
 *Ewolucja Zaufania* jest dedykowana domenie publicznej i została stworzona dzięki wielu zasobom Creative Commons i open source! Oto pełna lista użytych dźwięków, muzyki i kodu:
 
-**Muzyka:** "Bleu" autorstwa Komiku (CC Zero). [Pobierz cały album z Free Music Archive](http://freemusicarchive.org/music/Komiku/Its_time_for_adventure_/)
+**Muzyka:** "Bleu" autorstwa Komiku (CC Zero). [Pobierz cały album z Free Music Archive legalnie za darmo](http://freemusicarchive.org/music/Komiku/Its_time_for_adventure_/)
 
 **Efekty dźwiękowe:**
 
