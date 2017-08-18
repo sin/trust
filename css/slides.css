@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&subset=latin-ext');
+
 @font-face{
-	font-family: 'FuturaHandwritten';
+	font-family: 'Shadows Into Light Two', cursive;
 	font-style: normal;
-	src: url('FuturaHandwritten.ttf') format('truetype');
+
 }
 
 html,body{
@@ -10,16 +12,16 @@ html,body{
 }
 
 body{
-	
 	margin:0;
 	overflow: hidden;
 
 	background: #fff;
 
-	font-family: 'FuturaHandwritten';
+	font-family: 'Shadows Into Light Two', cursive;
 	color: #333;
-	font-size: 20px;
-
+	font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 #preloader{
 	position: absolute;
@@ -201,7 +203,7 @@ s{
 }
 .button #text{
 	
-	font-family: 'FuturaHandwritten';
+	font-family: 'Shadows Into Light Two', cursive;
 	color: #000;
 	font-size: 24px;
 

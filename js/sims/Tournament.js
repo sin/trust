@@ -604,7 +604,7 @@ function TournamentAgent(config){
 
 	// Score!
 	var textStyle = new PIXI.TextStyle({
-	    fontFamily: "FuturaHandwritten",
+	    fontFamily: "Patrick Hand",
 	    fontSize: 16,
 	    fill: "#444"
 	});

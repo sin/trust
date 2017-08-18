@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&subset=latin-ext');
+
 @font-face{
-	font-family: 'FuturaHandwritten';
-	font-style: normal;
-	src: url('../css/FuturaHandwritten.ttf') format('truetype');
+	font-family: 'Shadows Into Light Two', cursive;
 }
 
 body{
 	background: #222;
-	font-family: "FuturaHandwritten";
-	font-size: 22px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 19px;
+    letter-spacing: 1px;
+	line-height: 1.5;
 	color: #222;
 	margin: 0;
 }
