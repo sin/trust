@@ -13,11 +13,11 @@ SLIDES.push({
 		// Words on top & bottom
 		self.add({
 			id:"topWords", type:"TextBox", text_id:"oneoff_0_top",
-			x:130, y:10, width:700, height:100, align:"center"
+			x:120, y:10, width:720, height:100, align:"center"
 		});
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_0_btm",
-			x:130, y:397, width:700, height:100, align:"center"
+			x:120, y:397, width:720, height:100, align:"center"
 		});
 
 		// Labels
@@ -36,14 +36,14 @@ SLIDES.push({
 
 		// Buttons
 		self.add({
-			id:"btnCheat", type:"Button", x:275, y:463, text_id:"label_cheat", uppercase:true,
+			id:"btnCheat", type:"Button", x:275, y:470, text_id:"label_cheat", uppercase:true,
 			onclick:function(){
 				_.answer = "CHEAT";
 				publish("slideshow/next");
 			}
 		});
 		self.add({
-			id:"btnCooperate", type:"Button", x:495, y:460, text_id:"label_cooperate", uppercase:true,
+			id:"btnCooperate", type:"Button", x:495, y:470, text_id:"label_cooperate", uppercase:true,
 			onclick:function(){
 				_.answer = "COOPERATE";
 				publish("slideshow/next");
@@ -104,15 +104,15 @@ SLIDES.push({
 		}
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_2_btm",
-			x:130, y:392, width:700, height:100, align:"center"
+			x:120, y:392, width:720, height:100, align:"center"
 		});
 
 		// Replace button
 		self.remove("btnCheat");
 		self.remove("btnCooperate");
 		self.add({
-			id:"btnNext", type:"Button", x:304, y:481, size:"long",
-			text_id:"oneoff_button_next", 
+			id:"btnNext", type:"Button", x:304, y:490, size:"long",
+			text_id:"oneoff_button_next",
 			message:"slideshow/next"
 		});
 

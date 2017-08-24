@@ -1,7 +1,7 @@
 SLIDES.push({
 
 	id: "iterated",
-	
+
 	onjump: function(self){
 
 		Tournament.resetGlobalVariables();
@@ -23,7 +23,7 @@ SLIDES.push({
 			align:"center", color:"#aaa", size:17,
 			text_id:"label_them"
 		});
-		
+
 	},
 
 	onstart: function(self){
@@ -169,7 +169,7 @@ SLIDES.push({
 
 				// Next opponent
 				ROUND_NUM = 0;
-				ROUND_INDEX++; 
+				ROUND_INDEX++;
 				if(ROUND_INDEX >= ROUNDS.length){
 					publish("slideshow/scratch"); // NEXT SLIDE, WHATEVER
 				}else{
@@ -191,7 +191,7 @@ SLIDES.push({
 				publish("buttonCheat/activate");
 				publish("buttonCooperate/activate");
 			}
-			
+
 		});
 
 		_showInfo();
@@ -231,7 +231,7 @@ SLIDES.push({
 		// Score
 		self.add({
 			id:"score2", type:"TextBox",
-			x:114, y:44, width:151, height:132, align:"right", size:123,
+			x:114, y:60, width:151, height:132, align:"right", size:96, lineHeight: 1,
 			text: _.yourTotalScore+""
 		});
 
@@ -262,12 +262,12 @@ SLIDES.push({
 		});
 		self.add({
 			id:"char_grudge", type:"CharacterTextBox",
-			x:39, y:333, width:380, height:114,
+			x:39, y:333, width:390, height:114,
 			character: "grudge"
 		});
 		self.add({
 			id:"char_prober", type:"CharacterTextBox",
-			x:431, y:333, width:500, height:114,
+			x:431, y:333, width:520, height:114,
 			character: "prober"
 		});
 
