@@ -73,7 +73,7 @@ SLIDES.push({
 		// Circular Wordbox
 		self.add({
 			id:"text", type:"TextBox",
-			x:110, y:0, width:740, height:500, align:"center",
+			x:100, y:0, width:760, height:500, align:"center",
 			text_id:"outro_1"
 		});
 
@@ -116,7 +116,7 @@ SLIDES.push({
 		self.add({
 			id:"text2", type:"TextBox",
 			x:215, y:402, width:530,
-			align:"center", color:"#aaa", size:14,
+			align:"center", color:"#aaa", size:16,
 			text_id:"outro_2_credits"
 		});
 		_hide(o.text2); _fadeIn(o.text2, 200);

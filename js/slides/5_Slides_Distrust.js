@@ -8,7 +8,7 @@ SLIDES.push({
 
 	},
 	onstart: function(self){
-		
+
 		var o = self.objects;
 
 		// Reset Tournament
@@ -29,7 +29,7 @@ SLIDES.push({
 		// Words to the side
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:00, width:450, height:500,
+			x:0, y:0, width:450, height:500,
 			text_id:"distrust_1"
 		});
 		_hide(o.text); _fadeIn(o.text, 600);
@@ -88,7 +88,7 @@ SLIDES.push({
 
 SLIDES.push({
 	onstart: function(self){
-		
+
 		var o = self.objects;
 
 		// Words
@@ -150,6 +150,7 @@ SLIDES.push({
 	},
 	onend: function(self){
 		unlisten(_.misc);
+		self.remove("text");
 		self.remove("roundsLabel");
 		self.remove("roundsSlider");
 		var o = self.objects;
@@ -165,20 +166,24 @@ SLIDES.push({
 		var o = self.objects;
 
 		// Words
-		o.text.setTextID("distrust_3");
+        self.add({
+            id:"text", type:"TextBox",
+            x:0, y:0, width:470, height:500,
+            text_id:"distrust_3"
+        });
 		_hide(o.text); _fadeIn(o.text, 100);
 
 		// Worse...
 		self.add({
 			id:"next", type:"Button",
-			x:0, y:500, size:"long",
+			x:0, y:440, size:"long",
 			text_id:"distrust_3_btn",
 			message: "slideshow/next"
 		});
 		_hide(o.next); _fadeIn(o.next, 400);
 
 	},
-	onend: function(self){	
+	onend: function(self){
 		self.remove("text");
 		self.remove("next");
 	}
@@ -222,7 +227,7 @@ SLIDES.push({
 			_showContinue = null;
 			self.add({
 				id:"continueLabel", type:"TextBox",
-				x:0, y:480, width:320, 
+				x:0, y:480, width:320,
 				align:"right", color:"#aaa", size:17,
 				text_id:"distrust_4_note"
 			});
@@ -280,7 +285,7 @@ SLIDES.push({
 		// Words
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:0, width:450, height:500,
+			x:0, y:20, width:450, height:500,
 			text_id:"distrust_5"
 		});
 		_hide(o.text); _fadeIn(o.text, 100);
@@ -288,14 +293,14 @@ SLIDES.push({
 		// Worse...
 		self.add({
 			id:"next", type:"Button",
-			x:0, y:500, size:"long",
+			x:0, y:485, size:"long",
 			text_id:"distrust_5_btn",
 			message: "slideshow/scratch"
 		});
 		_hide(o.next); _fadeIn(o.next, 400);
 
 	},
-	onend: function(self){	
+	onend: function(self){
 		unlisten(_);
 		unlisten(_.misc);
 		self.clear();

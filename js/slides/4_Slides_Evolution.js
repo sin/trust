@@ -44,7 +44,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:615, y:466, 
+			id:"button", type:"Button", x:615, y:466,
 			text_id:"evolution_intro_button", size:"long",
 			message:"slideshow/scratch"
 		});
@@ -79,7 +79,7 @@ SLIDES.push({
 		var _addButton = function(character, x, y){
 			(function(character, x, y){
 				self.add({
-					id:"bet_"+character, type:"Button", x:x, y:y, 
+					id:"bet_"+character, type:"Button", x:x, y:y,
 					text_id: "icon_"+character,
 					tooltip: "who_"+character,
 					onclick:function(){
@@ -129,7 +129,7 @@ SLIDES.push({
 		var textStep = 2;
 		// var textStep = 8;
 		self.add({
-			id:"step_1", type:"Button", x:x, y:y, 
+			id:"step_1", type:"Button", x:x, y:y,
 			text_id: "label_play_tournament", size:"long",
 			onclick:function(){
 				o.step_1.deactivate();
@@ -138,7 +138,7 @@ SLIDES.push({
 			}
 		});
 		self.add({
-			id:"step_2", type:"Button", x:x, y:y+70, 
+			id:"step_2", type:"Button", x:x, y:y+70,
 			text_id: "label_eliminate_bottom_5", size:"long",
 			onclick:function(){
 				o.step_2.deactivate();
@@ -148,7 +148,7 @@ SLIDES.push({
 			active: false
 		});
 		self.add({
-			id:"step_3", type:"Button", x:x, y:y+70*2, 
+			id:"step_3", type:"Button", x:x, y:y+70*2,
 			text_id: "label_reproduce_top_5", size:"long",
 			onclick:function(){
 				o.step_3.deactivate();
@@ -205,7 +205,7 @@ SLIDES.push({
 
 		// Oh by the way...
 		self.add({
-			id:"button", type:"Button", x:510, y:350, 
+			id:"button", type:"Button", x:510, y:350,
 			text_id:"evo_9_btn", size:"long",
 			message: "slideshow/next"
 		});
@@ -222,7 +222,7 @@ SLIDES.push({
 	onstart: function(self){
 
 		var o = self.objects;
-		
+
 		// SCRATCH IN TOURNAMENT
 		Scratcher.smallScratch(0, 0, 480, 540, function(){
 			Tournament.resetGlobalVariables();
@@ -243,7 +243,7 @@ SLIDES.push({
 		// Button: start/stop
 		var isPlaying = false;
 		self.add({
-			id:"autoplay", type:"Button", x:510, y:100, 
+			id:"autoplay", type:"Button", x:510, y:100,
 			text_id:"evo_autoplay", size:"long",
 			onclick: function(){
 				if(!isPlaying){
@@ -280,7 +280,7 @@ SLIDES.push({
 
 			// Button: next (hidden)
 			self.add({
-				id:"next", type:"Button", x:510, y:500, 
+				id:"next", type:"Button", x:510, y:500,
 				text_id:"evo_10_btn", size:"long",
 				message: "slideshow/next"
 			});
@@ -319,7 +319,7 @@ SLIDES.push({
 
 		// Next
 		self.add({
-			id:"next", type:"Button", x:510, y:450, 
+			id:"next", type:"Button", x:510, y:450,
 			text_id:"evo_11_btn", size:"long",
 			message: "slideshow/next"
 		});

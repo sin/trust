@@ -114,7 +114,7 @@ SLIDES.push({
 		_.yourTotalScore = 0;
 		self.add({
 			id:"info", type:"TextBox",
-			x:378, y:45, width:200, height:50, align:"center", size:15
+			x:378, y:45, width:200, height:50, align:"center", size:17
 		});
 		var _showInfo = function(){
 			var infoWords = Words.get("iterated_info_1");
@@ -231,7 +231,7 @@ SLIDES.push({
 		// Score
 		self.add({
 			id:"score2", type:"TextBox",
-			x:114, y:60, width:151, height:132, align:"right", size:96, lineHeight: 1,
+			x:114, y:50, width:151, height:132, align:"right", size:105, lineHeight: 1,
 			text: _.yourTotalScore+""
 		});
 

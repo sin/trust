@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Itim&subset=latin-ext');
 
 @font-face{
-	font-family: 'Shadows Into Light Two', cursive;
+	font-family: 'Itim', cursive;
 }
 
 body{
 	background: #222;
-	font-family: 'Shadows Into Light Two', cursive;
-	font-size: 19px;
-    letter-spacing: 1px;
-	line-height: 1.5;
+	font-family: 'Itim', cursive;
+	font-size: 22px;
+	line-height: 1.3;
 	color: #222;
 	margin: 0;
 }
@@ -26,7 +25,7 @@ body{
 }
 
 .credit_intro{
-	font-size: 25px;
+	font-size: 27px;
 }
 .credit_intro a{
 	color: #dd3939;
@@ -79,7 +78,7 @@ body{
 	margin-top: 15px;
 	overflow: hidden;
 	color: #ddd;
-	font-size: 18px;
+	font-size: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -99,7 +98,7 @@ body{
 	margin-top: 30px;
 	overflow: hidden;
 	color: #bbb;
-	font-size: 16px;
+	font-size: 18px;
 	padding-bottom: 20px;
 	text-align: center;
 	-webkit-columns: 150px 3;

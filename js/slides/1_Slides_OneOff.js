@@ -104,7 +104,7 @@ SLIDES.push({
 		}
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_2_btm",
-			x:120, y:392, width:720, height:100, align:"center"
+			x:110, y:392, width:740, height:100, align:"center"
 		});
 
 		// Replace button

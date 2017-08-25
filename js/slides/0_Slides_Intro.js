@@ -55,13 +55,13 @@ SLIDES.push({
 		self.add({
 			id:"title", type:"TextBox",
 			x:130, y:120, width:700,
-			size:120, lineHeight:1, align:"center",
+			size:110, lineHeight:0.9, align:"center",
 			text_id:"title"
 		});
 		self.add({
 			id:"subtitle", type:"TextBox",
 			x:240, y:360, width:480,
-			align:"center", color:"#aaa", size:15,
+			align:"center", color:"#aaa", size:17,
 			text_id:"subtitle"
 		});
 
