@@ -16,11 +16,11 @@ body{
 
 	background: #fff;
 
-	font-family: 'Itim', cursive;
+	font-family: 'Itim', sans-serif;
 	color: #333;
-	font-size: 22px;
-    letter-spacing: -1px;
-    line-height: 1.3;
+	font-size: 21px;
+    letter-spacing: -0.5px;
+    line-height: 1.35;
 }
 #preloader{
 	position: absolute;
