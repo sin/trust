@@ -168,7 +168,7 @@ SLIDES.push({
 		// Words
         self.add({
             id:"text", type:"TextBox",
-            x:0, y:0, width:470, height:500,
+            x:0, y:0, width:480, height:500,
             text_id:"distrust_3"
         });
 		_hide(o.text); _fadeIn(o.text, 100);
@@ -176,7 +176,7 @@ SLIDES.push({
 		// Worse...
 		self.add({
 			id:"next", type:"Button",
-			x:0, y:440, size:"long",
+			x:0, y:460, size:"long",
 			text_id:"distrust_3_btn",
 			message: "slideshow/next"
 		});
@@ -199,7 +199,7 @@ SLIDES.push({
 		// Words
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:0, width:450, height:500,
+			x:0, y:20, width:450, height:500,
 			text_id:"distrust_4"
 		});
 		_hide(o.text); _fadeIn(o.text, 100);
@@ -207,7 +207,7 @@ SLIDES.push({
 		// PAYOFFS
 		self.add({
 			id:"payoffs", type:"PayoffsUI",
-			x:105, y:73, scale:0.8, slideshow:self
+			x:105, y:93, scale:0.8, slideshow:self
 		});
 		_hide(o.payoffs); _fadeIn(o.payoffs, 300);
 		listen(_.misc, "payoffs/onchange", function(value){
@@ -217,7 +217,7 @@ SLIDES.push({
 		// More words
 		self.add({
 			id:"text2", type:"TextBox",
-			x:0, y:320, width:450, height:500,
+			x:0, y:340, width:450, height:500,
 			text_id:"distrust_4_2"
 		});
 		_hide(o.text2); _fadeIn(o.text2, 500);
@@ -227,13 +227,13 @@ SLIDES.push({
 			_showContinue = null;
 			self.add({
 				id:"continueLabel", type:"TextBox",
-				x:0, y:480, width:320,
+				x:0, y:500, width:320,
 				align:"right", color:"#aaa", size:17,
 				text_id:"distrust_4_note"
 			});
 			self.add({
 				id:"continueButton", type:"Button",
-				x:340, y:471, size:"short",
+				x:340, y:491, size:"short",
 				text_id:"label_continue",
 				message: "slideshow/next"
 			});
@@ -285,7 +285,7 @@ SLIDES.push({
 		// Words
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:20, width:450, height:500,
+			x:0, y:20, width:470, height:500,
 			text_id:"distrust_5"
 		});
 		_hide(o.text); _fadeIn(o.text, 100);

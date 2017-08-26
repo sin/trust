@@ -247,27 +247,27 @@ SLIDES.push({
 
 		self.add({
 			id:"char_tft", type:"CharacterTextBox",
-			x:39, y:208, width:470, height:114,
+			x:20, y:200, width:470, height:114,
 			character: "tft"
 		});
 		self.add({
 			id:"char_all_d", type:"CharacterTextBox",
-			x:511, y:208, width:190, height:114,
+			x:490, y:200, width:190, height:114,
 			character: "all_d"
 		});
 		self.add({
 			id:"char_all_c", type:"CharacterTextBox",
-			x:731, y:208, width:200, height:114,
+			x:731, y:200, width:200, height:114,
 			character: "all_c"
 		});
 		self.add({
 			id:"char_grudge", type:"CharacterTextBox",
-			x:39, y:333, width:390, height:114,
+			x:20, y:340, width:390, height:114,
 			character: "grudge"
 		});
 		self.add({
 			id:"char_prober", type:"CharacterTextBox",
-			x:431, y:333, width:520, height:114,
+			x:405, y:340, width:560, height:114,
 			character: "prober"
 		});
 
@@ -277,13 +277,13 @@ SLIDES.push({
 		// Next...
 		self.add({
 			id:"next", type:"TextBox",
-			x:104, y:478, width:447, height:37,
+			x:104, y:495, width:447, height:37,
 			text_id: "characters_teaser"
 		});
 
 		// Next Button!
 		self.add({
-			id:"next_button", type:"Button", x:544, y:471, size:"long",
+			id:"next_button", type:"Button", x:544, y:485, size:"long",
 			text_id:"characters_button",
 			message:"slideshow/scratch"
 		});

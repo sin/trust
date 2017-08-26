@@ -89,9 +89,9 @@ SLIDES.push({
 				});
 			})(character, x, y);
 		};
-		_addButton("all_c", 510, 295);
-		_addButton("all_d", 510, 295+70);
-		_addButton("tft", 510, 295+70*2);
+		_addButton("all_c", 510, 300);
+		_addButton("all_d", 510, 300+70);
+		_addButton("tft", 510, 300+70*2);
 
 		// WHO'S WHO?
 		self.add({
@@ -314,8 +314,13 @@ SLIDES.push({
 		o.tournament.reset();
 
 		// Text
-		o.text.setTextID("evo_11");
-		//_hide(o.text); _fadeIn(o.text, 100);
+        _hide(o.text);
+        self.add({
+            id:"text3", type:"TextBox",
+            x:510, y:30, width:470, height:500,
+            text_id:"evo_11"
+        });
+		_hide(o.text3); _fadeIn(o.text3, 100);
 
 		// Next
 		self.add({
@@ -327,7 +332,7 @@ SLIDES.push({
 
 	},
 	onend: function(self){
-		self.remove("text");
+		self.remove("text3");
 		self.remove("next");
 		_.clear();
 	}

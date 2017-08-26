@@ -12,7 +12,7 @@ function PayoffsUI(config){
 	if(config.scale){
 		dom.style.transform = "scale("+config.scale+","+config.scale+")";
 	}
-	
+
 	// Add Image Background
 	var bg = new ImageBox({
 		src: "assets/ui/payoffs_ui.png",
@@ -22,9 +22,9 @@ function PayoffsUI(config){
 
 	// Labels
 	dom.appendChild(_makeLabel("label_cooperate", {x:148, y:17, rotation:45, align:"center", color:"#cccccc"}));
-	dom.appendChild(_makeLabel("label_cooperate", {x:52, y:17, rotation:-45, align:"center", color:"#cccccc"}));
+	dom.appendChild(_makeLabel("label_cooperate", {x:46, y:12, rotation:-45, align:"center", color:"#cccccc"}));
 	dom.appendChild(_makeLabel("label_cheat", {x:245, y:90, rotation:45, align:"center", color:"#cccccc"}));
-	dom.appendChild(_makeLabel("label_cheat", {x:6, y:90, rotation:-45, align:"center", color:"#cccccc"}));
+	dom.appendChild(_makeLabel("label_cheat", {x:-5, y:85, rotation:-45, align:"center", color:"#cccccc"}));
 
 	// Inc(rement) De(crement) Numbers
 	// which are symmetrical, and update each other!

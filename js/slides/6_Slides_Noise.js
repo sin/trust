@@ -17,11 +17,11 @@ SLIDES.push({
 		// Words on top & bottom
 		self.add({
 			id:"topWords", type:"TextBox", text_id:"noise_1",
-			x:130, y:35, width:700, height:100, align:"center"
+			x:110, y:35, width:740, height:100, align:"center"
 		});
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"noise_1_end",
-			x:130, y:410, width:700, height:100, align:"center"
+			x:110, y:410, width:740, height:100, align:"center"
 		});
 
 		// STAGES
@@ -45,8 +45,8 @@ SLIDES.push({
 				o.button.deactivate();
 
 				// Hide words
-				_hide(o.topWords); 
-				_hide(o.btmWords); 
+				_hide(o.topWords);
+				_hide(o.btmWords);
 
 			}
 		});
@@ -75,7 +75,7 @@ SLIDES.push({
 
 					publish("iterated/cooperate");
 					_foreverWar = true;
-					
+
 					// The FINAL buttons... remove the button & put it back in.
 					self.remove("button");
 					self.add({
@@ -112,37 +112,37 @@ SLIDES.push({
 		// WORDS
 		self.add({
 			id:"score1", type:"TextBox",
-			x:160, y:20, width:640,
+			x:140, y:20, width:680,
 			text_id:"noise_characters"
 		});
 
 		// CHARS
 		self.add({
 			id:"char_tf2t", type:"CharacterTextBox",
-			x:160, y:70, width:640,
+			x:140, y:70, width:680,
 			character: "tf2t"
 		});
 		self.add({
 			id:"char_pavlov", type:"CharacterTextBox",
-			x:160, y:190, width:640,
+			x:140, y:190, width:680,
 			character: "pavlov"
 		});
 		self.add({
 			id:"char_random", type:"CharacterTextBox",
-			x:160, y:320, width:640,
+			x:140, y:320, width:680,
 			character: "random"
 		});
 
 		// Next...
 		self.add({
 			id:"next", type:"TextBox",
-			x:160, y:420, width:640, align:"right",
+			x:140, y:420, width:640, align:"right",
 			text_id: "noise_characters_end"
 		});
 
 		// Next Button!
 		self.add({
-			id:"next_button", type:"Button", x:460, y:460, size:"long",
+			id:"next_button", type:"Button", x:480, y:460, size:"long",
 			text_id:"noise_characters_btn",
 			message:"slideshow/scratch"
 		});
@@ -156,9 +156,9 @@ SLIDES.push({
 
 // Tournament: simpleton wins
 SLIDES.push({
-	
+
 	//id:"noise",// [FOR DEBUGGING]
-	
+
 	onstart: function(self){
 
 		var o = self.objects;
@@ -186,7 +186,7 @@ SLIDES.push({
 		var _addButton = function(character, x, y){
 			(function(character, x, y){
 				self.add({
-					id:"bet_"+character, type:"Button", x:x, y:y, 
+					id:"bet_"+character, type:"Button", x:x, y:y,
 					text_id: "icon_"+character,
 					tooltip: "who_"+character,
 					onclick:function(){
@@ -197,7 +197,7 @@ SLIDES.push({
 			})(character, x, y);
 		};
 		var x = 510;
-		var y = 295;
+		var y = 305;
 		var dx = 200;
 		var dy = 70;
 		_addButton("tf2t", x, y); _addButton("pavlov", x+dx, y);
@@ -207,7 +207,7 @@ SLIDES.push({
 		// WHO'S WHO?
 		self.add({
 			id:"forgot", type:"TextBox",
-			x:715, y:435, width:190, height:50,
+			x:715, y:445, width:190, height:50,
 			align:"center", color:"#aaa", size:15,
 			text_id:"forgot_whos_who"
 		});
@@ -276,21 +276,21 @@ SLIDES.push({
 			if(step=="reproduce"){
 				reproduceSteps++;
 				if(reproduceSteps==6){
-					
+
 					// WORDS
 					var words = (_.answer=="pavlov") ? Words.get("noise_evo_2_2_correct") : Words.get("noise_evo_2_2_incorrect");
 					words += " ";
 					words += Words.get("noise_evo_2_2");
 					self.add({
 						id:"text_next", type:"TextBox",
-						x:510, y:160, width:450,
+						x:510, y:140, width:450,
 						text: words
 					});
 					_hide(o.text_next); _fadeIn(o.text_next, 100);
 
 					// BUTTON
 					self.add({
-						id:"btn_next", type:"Button", x:510, y:366, 
+						id:"btn_next", type:"Button", x:510, y:366,
 						text_id:"noise_evo_2_2_btn", size:"long",
 						message:"slideshow/next"
 					});
@@ -339,7 +339,7 @@ SLIDES.push({
 		var _addButton = function(character, x, y){
 			(function(character, x, y){
 				self.add({
-					id:"bet_"+character, type:"Button", x:x, y:y, 
+					id:"bet_"+character, type:"Button", x:x, y:y,
 					text_id: "icon_"+character,
 					tooltip: "who_"+character,
 					onclick:function(){
@@ -416,7 +416,7 @@ SLIDES.push({
 
 					// BUTTON
 					self.add({
-						id:"btn_next", type:"Button", x:510, y:446, 
+						id:"btn_next", type:"Button", x:510, y:446,
 						text_id:"noise_evo_4_2_btn", size:"long",
 						message:"slideshow/next"
 					});
@@ -517,14 +517,14 @@ SLIDES.push({
 		// Words
 		self.add({
 			id:"text", type:"TextBox",
-			x:510, y:10, width:450, height:500,
+			x:510, y:0, width:450, height:500,
 			text_id:"noise_evo_6"
 		});
 		_hide(o.text); _fadeIn(o.text, 100);
 
 		// Next button
 		self.add({
-			id:"button", type:"Button", x:510, y:480, 
+			id:"button", type:"Button", x:510, y:490,
 			text_id:"noise_evo_6_btn", size:"long",
 			message:"slideshow/scratch"
 		});

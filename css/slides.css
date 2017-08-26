@@ -19,7 +19,6 @@ body{
 	font-family: 'Itim', sans-serif;
 	color: #333;
 	font-size: 21px;
-    letter-spacing: -0.5px;
     line-height: 1.35;
 }
 #preloader{
@@ -204,7 +203,7 @@ s{
 
 	font-family: 'Itim', cursive;
 	color: #000;
-	font-size: 26px;
+	font-size: 25px;
 
 	width: 180px;
 	height: 30px;
