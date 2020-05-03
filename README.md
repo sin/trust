@@ -37,8 +37,8 @@ To jest repozytorium tłumaczenia *[The Evolution of Trust](http://ncase.me/trus
 
 **Tłumaczenie:**
 
-* Autorzy tłumaczenia: [sin](https://github.com/sin/), [agagata](https://github.com/agagata/)
-* Korekta: [peggydreams](https://github.com/peggydreams/)
+* Autorzy tłumaczenia: [sin](https://github.com/sin/), [agatku](https://github.com/agatku/)
+* Korekta: karolina błażejczak
 
 Masz uwagi do tłumaczenia? Utwórz [Issue](https://github.com/sin/trust/issues) lub napisz na: sin [dot] mateusz [at] gmail [dot] com.
 
