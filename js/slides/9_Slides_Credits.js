@@ -6,7 +6,7 @@ SLIDES.push({
 		// Circular Wordbox
 		self.add({
 			id:"text", type:"TextBox",
-			x:0, y:35, width:960, height:400, align:"center",
+			x:0, y:0, width:960, height:400, align:"center",
 			text_id:"credits", color:"#fff"
 		});
 	}

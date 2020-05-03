@@ -528,13 +528,18 @@ s{
 	color: #888;
 }
 .credits .big{
-	font-size:40px;
-	line-height: 42px;
+	font-size:32px;
+	line-height: 34px;
+	color:#fff;
+}
+.credits .medium{
+	font-size:25px;
+	line-height: 27px;
 	color:#fff;
 }
 .credits .divider{
 	display: block;
-	height: 40px;
+	height: 25px;
 }
 .credits a{
 	color:#dd4040;
