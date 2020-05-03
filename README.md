@@ -69,7 +69,10 @@ Masz uwagi do tłumaczenia? Utwórz [Issue](https://github.com/sin/trust/issues)
 [Estonian](http://ncase.me/trust-et/),
 [Czech](https://nextghost.github.io/trust/),
 [Latvian](https://reversedfate.github.io/trust/),
-[Dutch](https://rayraz.github.io/trust/)
+[Dutch](https://rayraz.github.io/trust/),
+[Finnish](https://1luap.github.io/trust/),
+[Danish](https://mok0.github.io/trust/),
+[Bahasa Indonesia](https://chairulakmal.github.io/trust/)
 
 # "LICENCJA"
 
